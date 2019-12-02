@@ -1,3 +1,8 @@
+/*
+* 整数N中，有相同的数字，返回1。没有，返回0；
+* 如121，221，343，返回1；
+* 如123，452，765，返回0；
+*/
 int IsTheNumber(const int N){
 	int num;
 	num = (int)sqrt(N);
